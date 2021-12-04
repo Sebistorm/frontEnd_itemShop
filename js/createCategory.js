@@ -6,7 +6,6 @@ function init() {
 
 document.querySelector("#frmCreateCategory").addEventListener("submit", async function (e) {
   e.preventDefault();
-  console.log(e.target)
   const createUrl = e.target.action;
   try {
     const formData = new FormData(e.target);
