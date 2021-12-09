@@ -29,11 +29,8 @@ function insertItemToUI(itemData) {
       <div class="col-sm-2">${itemData.itemName}</div>
       <div class="col-sm-2">${itemData.itemPrice}</div>
       <div class="col-sm-2">${itemData.category.categoryName}</div>
+      <div class="col-sm-2"><a href="viewItem.html/?id=${itemData.itemID}">View</a></div>
     </div>`;
-  console.log(item);
   ItemContainer.insertAdjacentHTML("beforeend", item);
-
-
-
 
 }

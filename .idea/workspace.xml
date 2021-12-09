@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cef6107-374f-47fd-a271-31fe73ad8f31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/createItem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/createItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fetchCategories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/viewAllItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewAllItems.html" afterDir="false" />
+    <list default="true" id="9cef6107-374f-47fd-a271-31fe73ad8f31" name="Default Changelist" comment="create Item and view all items">
+      <change afterPath="$PROJECT_DIR$/createColor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/createColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/viewItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewItem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/createCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/createCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/viewAllItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/viewAllItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewAllItems.html" beforeDir="false" afterPath="$PROJECT_DIR$/viewAllItems.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +46,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,8 +70,17 @@
       <updated>1638638436670</updated>
       <workItem from="1638638438247" duration="1793000" />
       <workItem from="1638640343501" duration="7000" />
-      <workItem from="1638640478230" duration="6295000" />
+      <workItem from="1638640478230" duration="6407000" />
+      <workItem from="1638804142366" duration="4974000" />
     </task>
+    <task id="LOCAL-00001" summary="create Item and view all items">
+      <created>1638647614350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638647614350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +96,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create Item and view all items" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Item and view all items" />
   </component>
 </project>
